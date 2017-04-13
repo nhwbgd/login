@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="251px" height="142px" viewBox="0 0 251 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>空</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="250.225007" height="142" rx="4"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="250.225007" height="142" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13首页" transform="translate(-1027.000000, -374.000000)">
+            <g id="我的班级" transform="translate(223.000000, 335.000000)">
+                <g id="空" transform="translate(804.000000, 39.000000)">
+                    <use id="Rectangle-2" stroke="#979797" mask="url(#mask-2)" stroke-width="2" opacity="0.28294837" xlink:href="#path-1"></use>
+                    <path d="M126.78066,68 L126.78066,45.0936054 C126.78066,43.9411442 125.710473,43 124.39033,43 C123.072874,43 122,43.9373391 122,45.0936054 L122,68 L95.0895178,68 C93.944593,68 93,68.9387897 93,70.0968455 C93,71.2629751 93.935509,72.193691 95.0895178,72.193691 L122,72.193691 L122,96.4728009 C122,97.6252621 123.070187,98.5664062 124.39033,98.5664062 C125.707787,98.5664062 126.78066,97.6290672 126.78066,96.4728009 L126.78066,72.193691 L154.254232,72.193691 C155.399157,72.193691 156.34375,71.2549013 156.34375,70.0968455 C156.34375,68.930716 155.408241,68 154.254232,68 L126.78066,68 Z" id="Combined-Shape" fill="#D8D8D8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

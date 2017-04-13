@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>基本信息</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/glyphicons-halflings-regular.svg" >
+
+    <link rel="stylesheet" href="css/buttons.css">
+    <link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- 自定义样式 -->
+    <link href="css/myweb.css" rel="stylesheet">
+
+
+</head>
+<body style="background: #F4F4F4;">
+<div class="container re-row">
+    <div class="row ">
+        <div class="col-xs-6"> <div class="logo"><img src="img/Logo.svg"></div> </div>
+
+    </div>
+
+    <div class="panel panel-default my-panel ">
+        <div class="panel-heading text-center my-panel-heading">
+            基本信息填写
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-12">
+                    <form class="form-horizontal my-form-horizontal" role="form">
+
+                        <div class="form-group">
+                            <div class="col-sm-5 ">
+                            <select class="form-control my-input" id="test_select">
+                                <option value="0" selected = "selected">请选择注册类型</option>
+                                <option value="1">教师账号</option>
+                                <option value="2" onclick="HideId()">学习账号</option>
+                            </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+
+                            <div class="col-sm-5 ">
+                                <input type="text" class="form-control my-input" id="firstname"
+                                       placeholder="姓名">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-5 ">
+                                <select class="form-control my-input">
+                                    <option value="0" selected = "selected">请选择性别</option>
+                                    <option value="1">男</option>
+                                    <option value="2">女</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+
+                        <div class="col-sm-5 ">
+                            <input type="text" class="form-control my-input" id="phone-number"
+                                   placeholder="请输入手机号">
+                        </div>
+
+                    </div>
+                    <div class="form-group ">
+
+                         <div class="col-sm-5 ">
+                                <input type="text" class="form-control my-input" id="phone-number"
+                                       placeholder="请输入邮箱">
+                         </div>
+
+                    </div>
+
+
+                        <div class="form-group" id="test">
+
+                            <div class="report-file">
+                                <span>点击上传身份证</span><input tabindex="3" size="3" name="report" class="file-prew" type="file" onchange="document.getElementById('textName').value=this.value">
+                            </div>
+                            <input type="text" id="textName"  placeholder=" 身份证格式jpg／png"  />
+
+                        </div>
+
+                        <div class="form-group ">
+
+                            <div class="col-sm-5 ">
+                                <input type="text" class="form-control my-input" id="phone-number"
+                                       placeholder="学校机构">
+                            </div>
+
+                        </div>
+
+                        <div class="form-group ">
+
+                            <div class="col-sm-5 ">
+                                <input type="text" class="form-control my-input" id="phone-number"
+                                       placeholder="职务">
+                            </div>
+
+                        </div>
+
+
+                        <button type="submit" class="btn btn-default my-btn"><a href="register_proinfo.html">下一步</a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <p align="center" style="margin-top: 20px;color:#878B91;">2014-2017 萝卜太辣 | 京ICP备15024308号</p>
+
+</div>
+<script type="text/javascript">
+
+
+
+        window.onload = function(){
+            var obj_select = document.getElementById("test_select");
+            var obj_div = document.getElementById("test");
+            obj_select.onchange = function(){
+                obj_div.style.display = this.value==1? "block" : "none";
+            }
+        }
+
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+</script>
+
+</body>
+</html>

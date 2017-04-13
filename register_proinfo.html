@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>已购产品信息</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="fonts/glyphicons-halflings-regular.svg" >
+
+    <link rel="stylesheet" href="css/buttons.css">
+    <link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- 自定义样式 -->
+    <link href="css/myweb.css" rel="stylesheet">
+
+
+</head>
+<body style="background: #F4F4F4;">
+<div class="container re-row">
+    <div class="row ">
+        <div class="col-xs-6"> <div class="logo"><img src="img/Logo.svg"></div> </div>
+        <!--<div class="col-xs-6 "><h5>已有账号， <a href="#">返回登录</a>|<a href="#">返回萝卜太辣官网</a></h5></div>-->
+    </div>
+
+    <div class="panel panel-default my-panel  ">
+        <div class="panel-heading text-center my-panel-heading">
+            已购产品信息
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-12">
+                    <form class="form-horizontal my-form-horizontal"  role="form">
+
+                    <div class="form-group">
+                        <div class="col-sm-5 ">
+                            <select class="form-control my-input">
+                                <option value="0" selected = "selected">请选择已购产品类型</option>
+                                <option value="1">ERRA小车与配件包</option>
+                                <option value="2">起源套件</option>
+                                <option value="3">动力套件</option>
+                                <option value="5">场地</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group ">
+                        <div class="col-sm-5 ">
+                            <input type="text" class="form-control my-input" id="firstname"
+                                   placeholder="数量">
+                        </div>
+                    </div>
+
+                </form>
+
+                    <form class="form-horizontal my-form-horizontal" id="test" role="form">
+                        <strong></strong>
+
+                    </form>
+
+                    <form class="form-horizontal my-form-horizontal"  role="form">
+                        <p align="center"> <button class="button button-circle button-tiny btn-pointer"  align="center" type="button" onclick="setInnerHTML()" value="点击"><i class="fa fa-plus"></i></button></p>
+                    </form>
+
+
+                    <form class="form-horizontal my-form-horizontal"  role="form">
+                        <button type="submit" class="btn btn-default my-btn"><a href="register_success.html">完成注册</a></button>
+                        <p align="center" style="margin-top:-20px;margin-bottom: 20px;"><a href="register_success.html">未购买产品，我想试用教师账号</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <p align="center" style="margin-top: 20px;color:#878B91;">2014-2017 萝卜太辣 | 京ICP备15024308号</p>
+
+</div>
+
+<script type="text/javascript">
+    function setInnerHTML(){
+        document.getElementById("test").innerHTML = document.getElementById("test").innerHTML+="<div class=\'form-group\'><div class=\'col-sm-5 \'> <select class=\'form-control my-input\'><option value=\'0\' selected = \'selected\'>请选择已购产品类型</option><option value=\'1\'>ERRA小车与配件包</option><option value=\'2\'>起源套件</option><option value=\'3\'>动力套件</option><option value=\'5\'>场地</option></select></div></div><div class=\'form-group \'><div class=\'col-sm-5 \'><input type=\'text\' class=\'form-control my-input\' id=\'firstname\'placeholder=\'数量\'></div></div>";
+    }
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

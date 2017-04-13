@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>用户注册</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/glyphicons-halflings-regular.svg" >
+    <!-- 自定义样式 -->
+    <link href="css/myweb.css" rel="stylesheet">
+
+
+</head>
+<body style="background: #F4F4F4;">
+<div class="container re-row">
+    <div class="row ">
+        <div class="col-xs-6"> <div class="logo"> <a href="http://www.roboterra.com.cn/"><img src="img/Logo.svg"></div></a> </div>
+        <div class="col-xs-6 my-link"><h5>已有账号， <a href="login.html">去登录</a>  |  <a href="http://www.roboterra.com.cn/">返回萝卜官网</a></h5></div>
+    </div>
+
+
+    <div class="panel panel-default my-panel ">
+        <div class="panel-heading text-center my-panel-heading">
+            用户注册
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-12">
+                    <form class="form-horizontal my-form-horizontal" role="form">
+                        <div class="form-group ">
+
+                            <div class="col-sm-5 ">
+                                <input type="text" class="form-control my-input" id="firstname"
+                                       placeholder="用户名">
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+
+                            <div class="col-sm-5 ">
+                                <input type="text" class="form-control my-input" id="phone-number"
+                                       placeholder="请输入手机号／邮箱">
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-xs-8">
+                                    <input autocomplete="off" type="text" name="phoneCode"  class="form-control my-input" id="vericode"
+                                           placeholder="验证码">
+
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="submit" class="btn btn-default " id="veribtn" disabled="disabled"><a href="#">获取验证码</a></button>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-12">
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <div class="col-sm-5">
+                                <input type="password" class="form-control my-input" id="lastname"
+                                       placeholder="请输入密码">
+                            </div>
+                        </div>
+
+                        <label class="check-cd" for="Useragreement">
+                            <input type="checkbox" name="autolog" checked="" id="Useragreement" class="check-c">我已阅读并接受<a href="#" target="_blank" class="main-link-color">版权声明</a>和<a href="#" target="_blank" class="main-link-color">隐私保护</a>条款
+
+                        </label>
+                        <button type="submit" class="btn btn-default my-btn"><a href="register_info.html">注册</a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <p align="center" style="margin-top: 20px;color:#878B91;">2014-2017 萝卜太辣 | 京ICP备15024308号</p>
+
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

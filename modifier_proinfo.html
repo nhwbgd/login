@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>修改已购产品信息</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="fonts/glyphicons-halflings-regular.svg" >
+
+    <link rel="stylesheet" href="css/buttons.css">
+    <link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- 自定义样式 -->
+    <link href="css/myweb.css" rel="stylesheet">
+
+
+</head>
+<body style="background: #F4F4F4;">
+<!--#导航栏-->
+<nav class="navbar navbar-default  " role="navigation">
+    <div class="container">
+
+        <!--# 手机自适应-->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand navbar-logo" href="#">
+                <img alt="Brand" src="img/passcardlogo.png" width="109px" height="37px">
+            </a>
+        </div>
+
+        <!--# 导航菜单-->
+
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active nav-margin"><a href="http://www.roboterra.com.cn/">首页</a></li>
+
+                <li class="dropdown nav-margin">
+                    <a href="#" class="dropdown-toggle "  data-toggle="dropdown" data-hover="dropdown">
+                        机器人套件和解决方案 <b class="caret"></b>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="http://www.roboterra.com.cn/castlerock">CastleRock™ 云学习平台</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/origin-kit">起源™套件</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/drive">Drive套件</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/erra">艾拉™套件</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown nav-margin">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                        机构服务 <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://www.roboterra.com.cn/curriculum"> 机器人课程体系</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/stem-lab">STEM 机器人教室</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/teacher-training">教师培训t</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/partners">合作院校</a></li>
+
+                    </ul>
+                </li>
+
+
+                <!--<a class="navbar-brand" href="#">-->
+                <!--<img alt="Brand" src="img/passcardlogo.png" width="109px" height="37px">-->
+                <!--</a>-->
+
+
+                <li class="dropdown nav-margin">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                        活动信息 <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://www.roboterra.com.cn/noc">全国中小学信息技术创新与实践活动件</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/faceoff">“面对”2018国际学生机器人大赛</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/recognitions-noc">奖项与证书</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/milestone">萝卜里程碑</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/future-events"> 活动预告</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="dropdown nav-margin">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                        联系我们 <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://www.roboterra.com.cn/support">技术支持</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/bd">商务合作</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/careers">人才招聘</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/team">团队故事</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.roboterra.com.cn/3">萝卜博客</a></li>
+                    </ul>
+                </li>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right" hidden="hidden">
+                <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right" >
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-hover="dropdown"><span class="glyphicon glyphicon-bell"></span> </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">这是一条新消息</a></li>
+                        <li><a href="#">这是第二条新消息……</a></li>
+                    </ul>
+                </li>
+                <li><a href="private_info.html"> <img src="img/head.jpeg " class="img-circle nav-head" width="20px"  height=20px">  个人中心</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<div class="container re-row">
+
+    <div class="panel panel-default my-panel  ">
+        <div class="panel-heading text-center my-panel-heading">
+            修改已购产品信息
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-12">
+                    <form class="form-horizontal my-form-horizontal"  role="form">
+
+                    <div class="form-group">
+                        <div class="col-sm-5 ">
+                            <select class="form-control my-input">
+                                <option value="0" selected = "selected">请选择已购产品类型</option>
+                                <option value="1">ERRA小车与配件包</option>
+                                <option value="2">起源套件</option>
+                                <option value="3">动力套件</option>
+                                <option value="5">场地</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group ">
+                        <div class="col-sm-5 ">
+                            <input type="number" class="form-control my-input" id="pronum"
+                                   placeholder="数量">
+                        </div>
+                    </div>
+
+                </form>
+
+                    <form class="form-horizontal my-form-horizontal" id="test" role="form">
+                        <strong></strong>
+
+                    </form>
+
+                    <form class="form-horizontal my-form-horizontal"  role="form">
+                        <p align="center"> <button class="button button-circle button-tiny btn-pointer"  align="center" type="button" onclick="setInnerHTML()" value="点击"><i class="fa fa-plus"></i></button></p>
+                    </form>
+
+
+                    <form class="form-horizontal my-form-horizontal"  role="form">
+                        <button type="submit" class="btn btn-default my-btn"><a href="private_info.html">提交修改</a></button>
+                        <!--<p align="center" style="margin-top:-20px;margin-bottom: 20px;"><a href="#">未购买产品，我想试用教师账号</a></p>-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <p align="center" style="margin-top: 20px;color:#878B91;">2014-2017 萝卜太辣 | 京ICP备15024308号</p>
+
+</div>
+
+<script type="text/javascript">
+    function setInnerHTML(){
+        document.getElementById("test").innerHTML = document.getElementById("test").innerHTML+="<div class=\'form-group\'><div class=\'col-sm-5 \'> <select class=\'form-control my-input\'><option value=\'0\' selected = \'selected\'>请选择已购产品类型</option><option value=\'1\'>ERRA小车与配件包</option><option value=\'2\'>起源套件</option><option value=\'3\'>动力套件</option><option value=\'5\'>场地</option></select></div></div><div class=\'form-group \'><div class=\'col-sm-5 \'><input type=\'number\' class=\'form-control my-input\' id=\'pronum\'placeholder=\'数量\'></div></div>";
+    }
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>教室管理首页</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/glyphicons-halflings-regular.svg" >
+
+    <!-- 自定义样式 -->
+    <link href="css/myweb.css" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+
+<!--#导航栏-->
+<nav class="navbar navbar-default  " role="navigation">
+    <div class="container">
+
+        <!--# 手机自适应-->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand navbar-logo" href="#">
+                <img alt="Brand" src="img/passcardlogo.png" width="109px" height="37px">
+            </a>
+        </div>
+
+        <!--# 导航菜单-->
+
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active nav-margin"><a href="http://www.roboterra.com.cn/">首页</a></li>
+
+            <li class="dropdown nav-margin">
+                <a href="#" class="dropdown-toggle "  data-toggle="dropdown" data-hover="dropdown">
+                    机器人套件和解决方案 <b class="caret"></b>
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li><a href="http://www.roboterra.com.cn/castlerock">CastleRock™ 云学习平台</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/origin-kit">起源™套件</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/drive">Drive套件</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/erra">艾拉™套件</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown nav-margin">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                    机构服务 <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="http://www.roboterra.com.cn/curriculum"> 机器人课程体系</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/stem-lab">STEM 机器人教室</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/teacher-training">教师培训t</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/partners">合作院校</a></li>
+
+                </ul>
+            </li>
+
+
+            <!--<a class="navbar-brand" href="#">-->
+                <!--<img alt="Brand" src="img/passcardlogo.png" width="109px" height="37px">-->
+            <!--</a>-->
+
+
+            <li class="dropdown nav-margin">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                    活动信息 <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="http://www.roboterra.com.cn/noc">全国中小学信息技术创新与实践活动件</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/faceoff">“面对”2018国际学生机器人大赛</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/recognitions-noc">奖项与证书</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/milestone">萝卜里程碑</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/future-events"> 活动预告</a></li>
+                </ul>
+            </li>
+
+
+            <li class="dropdown nav-margin">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                    联系我们 <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="http://www.roboterra.com.cn/support">技术支持</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/bd">商务合作</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/careers">人才招聘</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/team">团队故事</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://www.roboterra.com.cn/3">萝卜博客</a></li>
+                </ul>
+            </li>
+            </li>
+        </ul>
+
+            <ul class="nav navbar-nav navbar-right" hidden="hidden">
+                <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right" >
+                <li class="dropdown">
+                    <!--<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-hover="dropdown"><span class="glyphicon glyphicon-bell"></span> </a>-->
+                    <!--<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">-->
+                        <!--<li><a href="#">这是一条新消息</a></li>-->
+                        <!--<li><a href="#">这是第二条新消息……</a></li>-->
+                    <!--</ul>-->
+                </li>
+                <li><a href="private_info.html"> <img src="img/head.jpeg " class="img-circle nav-head" width="20px"  height=20px">  &nbsp;&nbsp;<strong>张川川老师</strong></a></li>
+            </ul>
+
+    </div>
+    </div>
+</nav>
+
+<!--图片轮播-->
+
+<div id="myCarousel" class="carousel slide hidden-xs">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="img/img01.png" width="100%" alt="First slide">
+        </div>
+        <div class="item">
+            <img src="img/img01.png" width="100%" alt="Second slide">
+        </div>
+        <div class="item">
+            <img src="img/img01.png" width="100%" alt="Third slide">
+        </div>
+        <div class="item">
+            <img src="img/img01.png" width="100%" alt="Third slide">
+        </div>
+        <div class="item">
+            <img src="img/img01.png" width="100%" alt="Third slide">
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel"
+       data-slide="prev">&lsaquo;
+    </a>
+    <a class="carousel-control right" href="#myCarousel"
+       data-slide="next">&rsaquo;
+    </a>
+</div>
+
+<!--#内容页-->
+<div class="container ">
+
+    <h4 class="class-con">我的班级</h2>
+    <div class="row class-row ">
+        <!-- 修改班级-模态框（Modal） -->
+        <div class="modal fade myModal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">修改班级</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <form class="form-horizontal my-form-horizontal" role="form">
+                            <div class="form-group ">
+                                <div class="col-sm-5 ">
+                                    <input type="text" class="form-control my-input" id="classleve"
+                                           placeholder="班级名称">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-5 ">
+                                    <select class="form-control my-input">
+                                        <option value="0" selected = "selected">请选择年级</option>
+                                        <option value="1">小学</option>
+                                        <option value="2">初中</option>
+                                        <option value="3">高中</option>
+                                        <option value="5">高校</option>
+                                        <option value="6">其它</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group ">
+                                <div class="col-sm-5 ">
+                                    <input type="datetime" class="form-control my-input" id="classtime"
+                                           placeholder="开课时间">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <button type="button" class="btn btn-primary">确定修改</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+
+        <!-- 删除班级提示框-模态框（Modal） -->
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">新建班级</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h5>您确认删除<strong>XXXXXX班级</strong>吗，一旦删除数据不可恢复！！！</h5>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <button type="button" class="btn btn-primary">确认删除</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+
+        <!-- 新建班级-模态框（Modal） -->
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">新建班级</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <form class="form-horizontal my-form-horizontal" role="form">
+                            <div class="form-group ">
+                                <div class="col-sm-5 ">
+                                    <input type="text" class="form-control my-input" id="classleve"
+                                           placeholder="班级名称">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-5 ">
+                                    <select class="form-control my-input">
+                                        <option value="0" selected = "selected">请选择年级</option>
+                                        <option value="1">小学</option>
+                                        <option value="2">初中</option>
+                                        <option value="3">高中</option>
+                                        <option value="5">高校</option>
+                                        <option value="6">其它</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group ">
+                                <div class="col-sm-5 ">
+                                    <input type="datetime" class="form-control my-input" id="classtime"
+                                           placeholder="开课时间">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <button type="button" class="btn btn-primary">确定新建</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+
+        <!--小学班级样式-->
+     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 my-con-margin ">
+        <div class=" col-bg">
+            <img src="img/Primary.svg" width="100%">
+            <div class="dropdown my-dr">
+                <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"><img src="img/seting.svg" ></button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1"  data-toggle="modal" data-target="#myModal">
+                            <span class="glyphicon glyphicon-pencil" ></span>设置班级</a>
+                    </li>
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#myModal1">
+                            <span class="glyphicon glyphicon-trash"></span>删除班级</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+        <h5><a href="#">小学3年级（2）版竞赛班</a></h5>
+        <h6><span>班级人数：</span>13人</h6>
+     </div>
+        <!--中学班级样式-->
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 my-con-margin ">
+            <div class=" col-bg">
+                <img src="img/Middle.svg" width="100%">
+                <div class="dropdown my-dr">
+                    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"><img src="img/seting.svg" ></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1"  data-toggle="modal" data-target="#myModal">
+                                <span class="glyphicon glyphicon-pencil" ></span>设置班级</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#myModal1">
+                                <span class="glyphicon glyphicon-trash"></span>删除班级</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <h5><a href="#">中学1年级（2）</a></h5>
+            <h6><span>班级人数：</span>30人</h6>
+        </div>
+
+        <!--高中班级样式-->
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 my-con-margin ">
+            <div class=" col-bg">
+                <img src="img/High.svg" width="100%">
+                <div class="dropdown my-dr">
+
+                    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"><img src="img/seting.svg" ></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1"  data-toggle="modal" data-target="#myModal">
+                                <span class="glyphicon glyphicon-pencil" ></span>设置班级</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#myModal1">
+                                <span class="glyphicon glyphicon-trash"></span>删除班级</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <h5><a href="#">高中3年级（2）版竞赛班</a></h5>
+            <h6><span>班级人数：</span>13人</h6>
+        </div>
+
+
+        <!--高校班级样式-->
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 my-con-margin ">
+            <div class=" col-bg">
+                <img src="img/college.svg" width="100%">
+                <div class="dropdown my-dr">
+                    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"><img src="img/seting.svg" ></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1"  data-toggle="modal" data-target="#myModal">
+                                <span class="glyphicon glyphicon-pencil" ></span>设置班级</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#myModal1">
+                                <span class="glyphicon glyphicon-trash"></span>删除班级</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <h5><a href="#">高校3年级（2）版竞赛班</a></h5>
+            <h6><span>班级人数：</span>13人</h6>
+        </div>
+
+        <!--其它班级样式-->
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 my-con-margin ">
+            <div class="Other col-bg">
+                <img src="img/Other.svg" width="100%">
+                <div class="dropdown my-dr">
+                    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"><img src="img/seting.svg" ></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1"  data-toggle="modal" data-target="#myModal">
+                                <span class="glyphicon glyphicon-pencil" ></span>设置班级</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#myModal1">
+                                <span class="glyphicon glyphicon-trash"></span>删除班级</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <h5><a href="#">机构班</a></h5>
+            <h6><span>班级人数：</span>13人</h6>
+        </div>
+
+        <!--新建班级按钮样式-->
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 my-con-margin ">
+            <div class="col-bg">
+                <a data-toggle="modal" data-target="#myModal2"><img src="img/plusclass.svg" width="100%"></a>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <h4 class="class-con">资料下载</h2>
+            <div class="row class-row ">
+
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ">
+                    <div class=" col-down">
+                        <a href="#"><img src="img/blueimg.svg" width="100%"></a>
+                    </div>
+                    <h5><a href="#">小学3年级课件</a></h5>
+                    <h6><span>更新时间：</span>2017-03-10</h6>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ">
+                    <div class=" col-down">
+                        <a href="#"> <img src="img/blueimg.svg" width="100%"></a>
+                    </div>
+                    <h5><a href="#">小学4年级课件</a></h5>
+                    <h6><span>更新时间：</span>2017-03-10</h6>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-36">
+                    <div class=" col-down">
+                        <a href="#"> <img src="img/blueimg.svg" width="100%"></a>
+                    </div>
+                    <h5><a href="#">小学5年级课件</a></h5>
+                    <h6><span>更新时间：</span>2017-03-10</h6>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ">
+                    <div class=" col-downg">
+                        <a href="#"> <img src="img/blueimg.svg" width="100%"></a>
+                    </div>
+                    <h5><a href="#">小学6年级课件</a></h5>
+                    <h6><span>更新时间：</span>2017-03-10</h6>
+                </div>
+     </div>
+
+</div>
+
+
+<footer class="container-fluid foot-wrap">
+    <!--采用container，使得页尾内容居中 -->
+    <div class="container ">
+
+
+        <div class="row footer-line">
+            <div class="col-xs-4 footer-line-red "></div>
+            <div class="col-xs-4 footer-line-yellow"></div>
+            <div class="col-xs-4 footer-line-blue"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <h5 class="footer-down">机器人套件和解决方案</h5>
+                <ul>
+
+                    <li><a href="http://www.roboterra.com.cn/castlerock"> CastleRock™ 云学习平台</a></li>
+                    <li><a href="http://www.roboterra.com.cn/origin-kit"> 起源™套件</a></li>
+                    <li><a href="http://www.roboterra.com.cn/drive">Drive套件</a></li>
+                    <li><a href="http://www.roboterra.com.cn/erra">艾拉™套件</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <h5 class="footer-down">机构服务</h5>
+                <ul>
+                    <li><a href="http://www.roboterra.com.cn/curriculum">机器人课程体系</a></li>
+                    <li><a href="http://www.roboterra.com.cn/stem-lab">STEM 机器人教室</a></li>
+                    <li><a href="http://www.roboterra.com.cn/teacher-training">教师培训</a></li>
+                    <li><a href="http://www.roboterra.com.cn/partners">合作院校</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <h5 class="footer-down"> 活动信息</h5>
+                <ul>
+                    <li><a href="http://www.roboterra.com.cn/noc">全国中小学信息技术创新与实践活动</a></li>
+                    <li><a href="http://www.roboterra.com.cn/faceoff">“面对”2018国际学生机器人大赛</a></li>
+                    <li><a href="http://www.roboterra.com.cn/recognitions-noc">奖项与证书</a></li>
+                    <li><a href="http://www.roboterra.com.cn/milestone">萝卜里程碑</a></li>
+                    <li><a href="http://www.roboterra.com.cn/future-events">活动预告</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-1"><h5 class="footer-down">联系我们</h5>
+                <ul>
+                    <li><a href="http://www.roboterra.com.cn/support">技术支持</a></li>
+                    <li><a href="http://www.roboterra.com.cn/bd">商务合作</a></li>
+                    <li><a href="http://www.roboterra.com.cn/careers">人才招聘</a></li>
+                    <li><a href="http://www.roboterra.com.cn/team">团队故事</a></li>
+                    <li><a href="http://www.roboterra.com.cn/3">萝卜博客</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 my-mail">
+                <form action="//roboterra.us12.list-manage.com/subscribe/post?u=19557d78e16b60b82ecfb4b5d&amp;id=2a396970df" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                <h3>了解萝卜太辣团队新鲜事</h3>
+                <div class="mc-field-group">
+                <input type="email"  name="EMAIL" class="emailss" id="mce-EMAIL" value=" &nbsp&nbsp请输入您的邮箱" >
+                </div>
+                <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <div class="clear"><input type="submit" value="提交" name="subscribe" id="mc-embedded-subscribe" class="sub"></div>
+                </div>
+
+                    <h5>关注我们 ｜Email：pr@roboterra.com</h5>
+
+                    <div class="social_icon">
+                        <a href="http://weibo.com/roboterra"><img src="img/sina.svg"></a>
+                        <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTExNDA0NQ==&mid=205431859&idx=1&sn=bbb2045bac9905c9e6db495025f29ad6&key=564c3e9811aee0abaa39059fb791552ff848d0311d5d0f59c9edbf3db6d875cfbab123484f001b83420fe5fa54f3756885f3f87425f14c343ab16d932dfc48109accf4afc772ec382015d837bb92b01a&ascene=0&uin=MTQ5NDQxNjU0MA%3D%3D&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.6+build(15G31)&version=12010210&nettype=WIFI&fontScale=100&pass_ticket=3O%2FpeBBdnT2QmSrnUEmvnQ60nxQJnXD1J%2FKv9noZd0ftG3mSE2WSAunIf%2BzbB8FW"><img src="img/weixin.svg" class="s_icon"></a>
+                        <a href="http://www.linkedin.com/company-beta/4846675/?pathWildcard=4846675"><img src="img/LinkedIn.svg" class="s_icon"></a>
+                        <a href="http://roboterra.sxl.cn/bd"><img src="img/tel.svg" class="s_icon"></a>
+                        <a href="Mailto:pr@roboterra.com"><img src="img/email.svg" class="s_icon"></a>
+
+                    </div>
+                </form>
+
+            </div>
+    </div>
+    <p align="center" style="margin-top: 20px;color:#878B91;">2014-2017 萝卜太辣 | 京ICP备15024308号</p>
+
+</footer>
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
+</body>
+</html>

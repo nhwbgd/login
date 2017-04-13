@@ -1,0 +1,522 @@
+@charset "UTF-8";
+/*-- 页面辅助文字 --*/
+/*-- 页面辅助文字 --*/
+/* -- 按钮 -- */
+/*-- 文本截取，超出一行行加省略号 --*/
+/*-- 文本截取，超出两行加省略号 --*/
+/*-- 圆角 --*/
+/*-- inline-block --*/
+/*-- 透明度 --*/
+/*-- 一级下拉菜单样式 --*/
+/*-- 导航下拉菜单原始样式 --*/
+/*-- 导航下拉菜单hover样式 --*/
+/*-- new标记 --*/
+/*-- 分隔符 --*/
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+ background-color: #FFFFFF;
+  background-image: none;
+  color: #333;
+}
+.passcard-box, .passcon .retrieve-pass-box .retrie-center {
+  margin: 0 auto; }
+
+.passcon .retrieve-pass-box {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+/*-- 按钮通用 --*/
+/*-- 卡片透明度 --*/
+/*-- 小三角朝下投影效果 --*/
+.passcard-box {
+  width: 812px;
+  padding-top: 48px; }
+
+.passcard-nav {
+  line-height: 24px;
+  font-size: 24px;
+  color: #444444; }
+  .passcard-nav .check-zcool-logo {
+    width: 134px;
+    height: 24px;
+    float: left;
+    margin-right: 22px;
+    background: url(../images/passcardlogo.png) no-repeat left top;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline; }
+  .passcard-nav .login-right-subnav {
+    margin-left: 25px;
+    font-size: 14px;
+    float: right; }
+  .passcard-nav .login-nav {
+    color: #666666; }
+  .passcard-nav .login-nav:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    width: 1px;
+    height: 14px;
+    margin-top: -4px;
+    background: #666666;
+    margin-left: 20px; }
+
+.login-existing-account {
+  float: right;
+  font-size: 14px;
+  color: #666666; }
+
+.footer p {
+  font-size: 12px;
+  color: #999999;
+  text-align: center;
+  margin-bottom: 8px; }
+
+.passcon .retrieve-pass-box {
+  padding: 40px 0 40px;
+  border: 1px solid #e1e1e1;
+  border-top: none; }
+
+.passcon .retrieve-pass-box {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px; }
+
+.passcon .retrieve-pass-box .retrie-center .form-eye-icon {
+  right: 10px;
+  top: 10px; }
+
+.account-wrap {
+  padding-top: 30px;
+  border: 1px solid #e1e1e1; }
+
+.passcon {
+  min-height: 600px;
+  margin: 30px 0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  background: #ffffff; }
+  .passcon input[name="password"] {
+    padding-right: 40px; }
+  .passcon .passmail-title {
+    height: 76px;
+    line-height: 76px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; }
+  .passcon .mail-con-wrap .has-been-sent {
+    font-size: 14px;
+    color: #444444; }
+  .passcon .mail-con-wrap .resend {
+    font-size: 12px;
+    color: #999999; }
+  .passcon .mail-con-wrap .has-been-sent,
+  .passcon .mail-con-wrap .mail-btn {
+    margin-top: 25px; }
+  .passcon .mail-con-wrap .receive-mail-box {
+    margin-top: 36px;
+    margin-bottom: 17px; }
+  .passcon .mail-con-wrap .mail-btn {
+    margin-bottom: 15px; }
+  .passcon .mail-con-wrap .has-been-sent,
+  .passcon .mail-con-wrap .resend {
+    line-height: 22px; }
+  .passcon .mail-con-wrap .expired-mail {
+    margin-top: 30px;
+    color: #444444;
+    font-size: 16px; }
+  .passcon .mail-con-wrap .vermail,
+  .passcon .mail-con-wrap .bannar-mail,
+  .passcon .mail-con-wrap .send-mails {
+    width: 350px;
+    margin: 0 auto;
+    color: #999999;
+    font-size: 12px;
+    text-align: left; }
+  .passcon .mail-con-wrap .vermail {
+    padding-bottom: 16px; }
+  .passcon .mail-con-wrap .bannar-mail a {
+    color: #999999; }
+  .passcon .mail-con-wrap .bannar-mail a:hover {
+    color: #666666; }
+  .passcon .mail-con-wrap .send-mails {
+    margin-top: 8px; }
+  .passcon .enter-zcool-box {
+    margin-top: 50px; }
+  .passcon .receive-mailbtn {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    width: 420px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .passcon .failed-txt {
+    line-height: 36px;
+    color: #666666;
+    font-size: 16px;
+    margin-top: 110px; }
+  .passcon .retrieve-pass-box {
+    min-height: 524px; }
+    .passcon .retrieve-pass-box .binding-tab {
+      height: 42px;
+      font-size: 20px;
+      line-height: 20px;
+      border-bottom: 1px solid #dedede;
+      text-align: center; }
+      .passcon .retrieve-pass-box .binding-tab span {
+        height: 41px;
+        margin: 0 28px;
+        border-bottom: 2px solid transparent;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        zoom: 1;
+        *display: inline;
+        color: #999999;
+        cursor: pointer; }
+      .passcon .retrieve-pass-box .binding-tab span.curent {
+        color: #333333;
+        border-bottom: 2px solid #333333; }
+    .passcon .retrieve-pass-box .retrie-center {
+      width: 420px; }
+      .passcon .retrieve-pass-box .retrie-center .form-tip {
+        padding: 10px 0;
+        display: block;
+        font-size: 12px;
+        *zoom: 1; }
+        .passcon .retrieve-pass-box .retrie-center .form-tip:after {
+          content: "";
+          display: table; }
+        .passcon .retrieve-pass-box .retrie-center .form-tip:after {
+          clear: both; }
+      .passcon .retrieve-pass-box .retrie-center .gray-color {
+        color: #999999; }
+      .passcon .retrieve-pass-box .retrie-center .red-color {
+        color: #f75234; }
+      .passcon .retrieve-pass-box .retrie-center .user-name-tip {
+        padding-left: 3px; }
+      .passcon .retrieve-pass-box .retrie-center .unregistered {
+        color: #999999;
+        display: none; }
+      .passcon .retrieve-pass-box .retrie-center .register,
+      .passcon .retrieve-pass-box .retrie-center .registers {
+        color: #666666; }
+      .passcon .retrieve-pass-box .retrie-center .skip {
+        font-size: 14px;
+        line-height: 14px;
+        color: #333333;
+        cursor: pointer;
+        margin-top: 10px; }
+      .passcon .retrieve-pass-box .retrie-center .binding-tips-text {
+        text-align: center;
+        line-height: 14px;
+        font-size: 14px;
+        color: #999999;
+        margin-top: 20px;
+        margin-bottom: 40px; }
+      .passcon .retrieve-pass-box .retrie-center .user-mailbox-register {
+        margin-top: 20px;
+        line-height: 14px; }
+        .passcon .retrieve-pass-box .retrie-center .user-mailbox-register a {
+          font-size: 14px; }
+      .passcon .retrieve-pass-box .retrie-center .forget-pass {
+        margin-top: 10px;
+        font-size: 12px;
+        text-align: right; }
+      .passcon .retrieve-pass-box .retrie-center .bind-account {
+        display: none; }
+      .passcon .retrieve-pass-box .retrie-center .text-wrong-style {
+        border: 1px solid #f75234;
+        background-color: #fdf6f5; }
+      .passcon .retrieve-pass-box .retrie-center input {
+        margin-top: 0; }
+      .passcon .retrieve-pass-box .retrie-center .codeeye {
+        left: 8px;
+        top: 16px; }
+      .passcon .retrieve-pass-box .retrie-center .agreemen-txt {
+        font-size: 14px;
+        color: #666666; }
+    .passcon .retrieve-pass-box .retrieve-password {
+      font-size: 20px;
+      line-height: 20px;
+      color: #333333;
+      margin-bottom: 40px;
+      text-align: center; }
+      .passcon .retrieve-pass-box .retrieve-password .three-binding-title {
+        font-size: 20px;
+        color: #333333; }
+      .passcon .retrieve-pass-box .retrieve-password .autobinding-tips {
+        display: block;
+        font-size: 14px;
+        color: #999999;
+        margin-top: 4px; }
+    .passcon .retrieve-pass-box .parent-input-box {
+      position: relative; }
+    .passcon .retrieve-pass-box .intensity {
+      float: right; }
+      .passcon .retrieve-pass-box .intensity i {
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        zoom: 1;
+        *display: inline;
+        width: 52px;
+        height: 8px;
+        margin-right: 2px;
+        line-height: 8px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 12px;
+        background: #bbbbbb;
+        border-radius: 50px;
+        float: left; }
+      .passcon .retrieve-pass-box .intensity .bg-red-strength {
+        background: #f4533b; }
+      .passcon .retrieve-pass-box .intensity .bg-yellow-strength {
+        background: #fed109; }
+      .passcon .retrieve-pass-box .intensity .bg-green-strength {
+        background: #58bf4c; }
+    .passcon .retrieve-pass-box .email {
+      background: url(../images/envelopesicon.png); }
+    .passcon .retrieve-pass-box .setpassword,
+    .passcon .retrieve-pass-box .tel,
+    .passcon .retrieve-pass-box .username {
+      width: 12px;
+      height: 18px; }
+    .passcon .retrieve-pass-box .email {
+      width: 17px;
+      height: 13px; }
+    .passcon .retrieve-pass-box .form-eye-icon {
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      zoom: 1;
+      *display: inline;
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      cursor: pointer;
+      background-position: center;
+      background-image: url(../images/vericodeicon.png);
+      background-repeat: no-repeat; }
+    .passcon .retrieve-pass-box .disabled-glance {
+      background-image: url(../images/disabledglance.png); }
+    .passcon .retrieve-pass-box .input-normal-style {
+      width: 420px; }
+    .passcon .retrieve-pass-box .transition-time {
+      transition: 0.4s linear; }
+    .passcon .retrieve-pass-box .verification-code {
+      width: 280px;
+      margin-right: 7px; }
+    .passcon .retrieve-pass-box .img-vericode {
+      width: 163px;
+      margin-right: 7px; }
+    .passcon .retrieve-pass-box .codebtn {
+      width: 120px;
+      height: 42px;
+      font-size: 14px;
+      float: right; }
+    .passcon .retrieve-pass-box .vericode-btn {
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      zoom: 1;
+      *display: inline;
+      width: 118px;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      border: 1px solid #aaaaaa;
+      background: #ffffff;
+      color: #666666;
+      font-size: 14px;
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      float: right;
+      cursor: pointer;
+      display: none;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    .passcon .retrieve-pass-box .passcard-btn,
+    .passcon .retrieve-pass-box .qibtn {
+      width: 420px;
+      height: 48px;
+      font-size: 16px; }
+    .passcon .retrieve-pass-box .bind-num-btn {
+      margin-top: 20px; }
+    .passcon .retrieve-pass-box .verifica-code {
+      position: relative; }
+      .passcon .retrieve-pass-box .verifica-code img {
+        vertical-align: middle;
+        margin-top: -3px; }
+      .passcon .retrieve-pass-box .verifica-code .code-tips {
+        width: 20px;
+        height: 48px;
+        background: url(../images/iconver.png) center no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        zoom: 1;
+        *display: inline;
+        float: right;
+        cursor: pointer; }
+    .passcon .retrieve-pass-box .deter-mine-btn,
+    .passcon .retrieve-pass-box .return-btn {
+      width: 200px;
+      height: 48px;
+      font-size: 16px; }
+    .passcon .retrieve-pass-box .return-btn {
+      float: right; }
+
+.passcon .account-number-tab {
+  height: 42px;
+  border-bottom: 1px solid #dedede;
+  text-align: center; }
+  .passcon .account-number-tab span {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    height: 41px;
+    border-bottom: 2px solid transparent;
+    font-size: 24px;
+    line-height: 24px;
+    color: #999999;
+    margin: 0 29px;
+    cursor: pointer; }
+  .passcon .account-number-tab span.current-status {
+    color: #333333;
+    border-bottom: 2px solid #333333; }
+
+.passcon .account-num-box {
+  padding: 40px 80px; }
+
+.passcon .account-num-tabcon {
+  margin-bottom: 20px;
+  *zoom: 1; }
+  .passcon .account-num-tabcon:after {
+    content: "";
+    display: table; }
+  .passcon .account-num-tabcon:after {
+    clear: both; }
+  .passcon .account-num-tabcon p {
+    margin-top: 28px;
+    *zoom: 1; }
+    .passcon .account-num-tabcon p:after {
+      content: "";
+      display: table; }
+    .passcon .account-num-tabcon p:after {
+      clear: both; }
+    .passcon .account-num-tabcon p > span {
+      margin-top: 8px;
+      line-height: 24px;
+      float: left;
+      color: #444444;
+      font-size: 14px;
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      zoom: 1;
+      *display: inline; }
+    .passcon .account-num-tabcon p > a {
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      zoom: 1;
+      *display: inline;
+      width: 120px;
+      height: 36px;
+      line-height: 36px;
+      float: right;
+      font-size: 14px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    .passcon .account-num-tabcon p .account-title {
+      width: 56px;
+      text-align: right;
+      margin-right: 23px;
+      color: #444444; }
+    .passcon .account-num-tabcon p .account-tips-text {
+      width: 343px;
+      color: #666666; }
+    .passcon .account-num-tabcon p .two-line-txt {
+      margin-top: 7px; }
+  .passcon .account-num-tabcon .first-line {
+    margin-top: 8px; }
+
+.account-binding-box {
+  width: 400px;
+  margin: 0 auto;
+  *zoom: 1; }
+  .account-binding-box:after {
+    content: "";
+    display: table; }
+  .account-binding-box:after {
+    clear: both; }
+  .account-binding-box .icon-box {
+    line-height: 42px;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 30px; }
+    .account-binding-box .icon-box .binding-btn,
+    .account-binding-box .icon-box .bound {
+      width: 120px;
+      height: 36px;
+      float: right;
+      font-size: 14px;
+      line-height: 36px;
+      margin-top: 3px; }
+  .account-binding-box .bindtxt {
+    margin-right: 88px;
+    float: right;
+    font-size: 14px;
+    color: #666666; }
+  .account-binding-box .weibo-login,
+  .account-binding-box .wechat-login,
+  .account-binding-box .qq-login {
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline; }
+  .account-binding-box .wechat-login {
+    background-image: url("../images/wechat.png");
+    background-color: #53bb4c; }
+  .account-binding-box .weibo-login {
+    background-image: url("../images/weibo.png");
+    background-color: #f4523b; }
+  .account-binding-box .qq-login {
+    background-image: url("../images/qq.png");
+    background-color: #3db0da; }
+
+.gt_holder {
+  width: 290px;
+  margin: 0 auto; }
+
+.verigy-img-box {
+  margin-bottom: 20px; }
